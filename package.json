@@ -1,0 +1,37 @@
+{
+  "name": "insdseq-filter",
+  "description": "Node command line utility for extracting gene information from an INSDSeq XML file.",
+  "keywords": [
+    "insdseq",
+    "xml"
+  ],
+  "version": "1.0.0",
+  "author": {
+    "name": "Thirasan Borisuthipandit",
+    "email": "thirasanb@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Mizstik/insdseq-filter.git"
+  },
+  "dependencies": {
+    "minimist": "~0.2.0",
+	"underscore": "~1.5.2",
+    "xml-stream": "~0.4.4"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/Mizstik/insdseq-filter/master/LICENSE"
+    }
+  ],
+  "main": "insdseq-filter.js",
+  "readme": "# insdseq-filter\n\ninsdseq-filter is a Node command line utility for extracting gene information from an INSDSeq XML file. [Homepage](https://github.com/Mizstik/insdseq-filter)\n\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/Mizstik/insdseq-filter/issues"
+  },
+  "homepage": "https://github.com/Mizstik/insdseq-filter",
+  "_id": "insdseq-filter@1.0.0",
+  "_from": "insdseq-filter@"
+}
