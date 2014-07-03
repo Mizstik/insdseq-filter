@@ -109,4 +109,4 @@ something someone somewhere out there might find useful, so I'm uploading it her
 License
 -------
 Copyright 2014 Thirasan Borisuthipandit
-Licensed under the MIT License. (see license.txt)
+Licensed under the MIT License. (see [LICENSE](https://raw.githubusercontent.com/Mizstik/insdseq-filter/master/LICENSE))
