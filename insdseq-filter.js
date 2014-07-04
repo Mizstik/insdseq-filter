@@ -2,10 +2,10 @@
 
 var t_app = process.hrtime();
  
-var    	   fs = require('fs'),
-			_ = require('underscore'),
-		 util = require('util'),
-	xmlstream = require('xml-stream');
+var        fs = require('fs'),
+            _ = require('underscore'),
+	     util = require('util'),
+    xmlstream = require('xml-stream');
 		 
 var opt = require('minimist')(process.argv.slice(2));
 
