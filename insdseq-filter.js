@@ -68,9 +68,9 @@ if (opt.filter) {
 }
 filters = _.map(filters, function (el) {return el.toUpperCase();});
 
-var no_feature = false;
+var all_feature = false;
 if (opt.feature == 'all' || opt.feature == '') {
-	no_feature = true;
+	all_feature = true;
 } else {
 	opt.feature = opt.feature.split(',');
 	opt.feature = _.map(opt.feature, function (el) {return el.toUpperCase();});
@@ -103,7 +103,7 @@ xml.on('endElement: INSDSeq', function(seq) {
 	var features = seq["INSDSeq_feature-table"].INSDFeature;
 	
 	_.each(features, function (feature) {
-		if (opt.feature.indexOf(feature.INSDFeature_key.toUpperCase()) > -1 || no_feature) {
+		if (opt.feature.indexOf(feature.INSDFeature_key.toUpperCase()) > -1 || all_feature) {
 			var gene = '';
 			var product = '';
 			
