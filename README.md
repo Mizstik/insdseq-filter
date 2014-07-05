@@ -97,6 +97,17 @@ An example using multiple options:
 node insdseq-filter.js --infile=input.xml --feature=CDS --filter=coii,cox2,co2 --outfile=coii --format=fas
 ```
 
+enumerator.js
+-------------
+This tool lists all names under /gene= or /product= and count how many species contain these genes in the XML.
+By default it only searches CDS features. Output is always CSV.
+
+```shell
+node enumerator.js --infile=input.xml --outfile=output.csv --feature=CDS,tRNA
+```
+
+Like the filter script, you can specify features with comma-separated values or use 'all' to search through all features.
+
 
 Misc
 ----
