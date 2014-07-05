@@ -99,7 +99,7 @@ node insdseq-filter.js --infile=input.xml --feature=CDS --filter=coii,cox2,co2 -
 
 enumerator.js
 -------------
-This tool lists all names under /gene= or /product= and count how many species contain these genes in the XML.
+This tool lists all names under /gene= or /product= and counts how many species contain these genes in the XML.
 By default it only searches CDS features. Output is always CSV.
 
 ```shell
