@@ -101,7 +101,7 @@ xml.on('data', function (data) {
 
 xml.on('endElement: INSDSeq', function(seq) {
 	locus_count++;
-	util.print('Processing locus: '+locus_count+', matched features: '+locus_matched+', bytes processed: '+(bytes_processed/1000).toFixed(0)+' KB'+"\u001B[0G");
+	util.print('Locus: '+locus_count+', Matched: '+locus_matched+', Bytes: '+(bytes_processed/1000).toFixed(0)+' KB'+"\u001B[0G");
 	
 	var entry = {};
 	
